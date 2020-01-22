@@ -4,30 +4,32 @@ struct Ball: View {
 
     let color: Color
 
+    @Binding var diameter: CGFloat
+
     var body: some View {
         color
             .clipShape(Circle())
-            .frame(width: 200, height: 200, alignment: .center)
+            .frame(width: diameter, height: diameter, alignment: .center)
     }
 }
 
 struct ContentView: View {
 
-    @State var redBallIsShown: Bool = true
+    @State var toggleColor: Bool = true
+    @State var size: CGFloat = 10
 
     var body: some View {
         VStack {
-            Toggle(isOn: $redBallIsShown.animation()) {
+            Toggle(isOn: $toggleColor.animation()) {
                 Text("Toggle red ball.")
             }.padding()
-            Ball(color: .yellow)
-            if redBallIsShown {
-                Ball(color: .red)
-            }
-            ZStack {
-                Ball(color: .blue)
-                Text("Hello, Elias and Mark!")
-            }.padding(.all, 24)
+            Slider(value: $size, in: 10...100)
+                .padding()
+            Ball(
+                color: toggleColor ? .yellow : .blue,
+                diameter: $size
+            ).frame(width: 200, height: 200, alignment: .center)
+
         }
     }
 }
