@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		497CB23F23D8A84000EB21DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497CB23E23D8A84000EB21DC /* AppDelegate.swift */; };
+		497CB24123D8A84000EB21DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497CB24023D8A84000EB21DC /* SceneDelegate.swift */; };
+		497CB24323D8A84000EB21DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497CB24223D8A84000EB21DC /* ContentView.swift */; };
+		497CB24523D8A84100EB21DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 497CB24423D8A84100EB21DC /* Assets.xcassets */; };
+		497CB24823D8A84100EB21DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 497CB24723D8A84100EB21DC /* Preview Assets.xcassets */; };
+		497CB24B23D8A84100EB21DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497CB24923D8A84100EB21DC /* LaunchScreen.storyboard */; };
+		497CB25623D8A84200EB21DC /* OpenArtMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497CB25523D8A84200EB21DC /* OpenArtMapTests.swift */; };
+		497CB26123D8A84200EB21DC /* OpenArtMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497CB26023D8A84200EB21DC /* OpenArtMapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		497CB25223D8A84100EB21DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 497CB23323D8A84000EB21DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 497CB23A23D8A84000EB21DC;
+			remoteInfo = OpenArtMap;
+		};
+		497CB25D23D8A84200EB21DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 497CB23323D8A84000EB21DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 497CB23A23D8A84000EB21DC;
+			remoteInfo = OpenArtMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		497CB23B23D8A84000EB21DC /* OpenArtMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenArtMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		497CB23E23D8A84000EB21DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		497CB24023D8A84000EB21DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		497CB24223D8A84000EB21DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		497CB24423D8A84100EB21DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		497CB24723D8A84100EB21DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		497CB24A23D8A84100EB21DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		497CB24C23D8A84100EB21DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		497CB25123D8A84100EB21DC /* OpenArtMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenArtMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		497CB25523D8A84200EB21DC /* OpenArtMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenArtMapTests.swift; sourceTree = "<group>"; };
+		497CB25723D8A84200EB21DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		497CB25C23D8A84200EB21DC /* OpenArtMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenArtMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		497CB26023D8A84200EB21DC /* OpenArtMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenArtMapUITests.swift; sourceTree = "<group>"; };
+		497CB26223D8A84200EB21DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		497CB23823D8A84000EB21DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497CB24E23D8A84100EB21DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497CB25923D8A84200EB21DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		497CB23223D8A84000EB21DC = {
+			isa = PBXGroup;
+			children = (
+				497CB23D23D8A84000EB21DC /* OpenArtMap */,
+				497CB25423D8A84200EB21DC /* OpenArtMapTests */,
+				497CB25F23D8A84200EB21DC /* OpenArtMapUITests */,
+				497CB23C23D8A84000EB21DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		497CB23C23D8A84000EB21DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				497CB23B23D8A84000EB21DC /* OpenArtMap.app */,
+				497CB25123D8A84100EB21DC /* OpenArtMapTests.xctest */,
+				497CB25C23D8A84200EB21DC /* OpenArtMapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		497CB23D23D8A84000EB21DC /* OpenArtMap */ = {
+			isa = PBXGroup;
+			children = (
+				497CB23E23D8A84000EB21DC /* AppDelegate.swift */,
+				497CB24023D8A84000EB21DC /* SceneDelegate.swift */,
+				497CB24223D8A84000EB21DC /* ContentView.swift */,
+				497CB24423D8A84100EB21DC /* Assets.xcassets */,
+				497CB24923D8A84100EB21DC /* LaunchScreen.storyboard */,
+				497CB24C23D8A84100EB21DC /* Info.plist */,
+				497CB24623D8A84100EB21DC /* Preview Content */,
+			);
+			path = OpenArtMap;
+			sourceTree = "<group>";
+		};
+		497CB24623D8A84100EB21DC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				497CB24723D8A84100EB21DC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		497CB25423D8A84200EB21DC /* OpenArtMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				497CB25523D8A84200EB21DC /* OpenArtMapTests.swift */,
+				497CB25723D8A84200EB21DC /* Info.plist */,
+			);
+			path = OpenArtMapTests;
+			sourceTree = "<group>";
+		};
+		497CB25F23D8A84200EB21DC /* OpenArtMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				497CB26023D8A84200EB21DC /* OpenArtMapUITests.swift */,
+				497CB26223D8A84200EB21DC /* Info.plist */,
+			);
+			path = OpenArtMapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		497CB23A23D8A84000EB21DC /* OpenArtMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 497CB26523D8A84200EB21DC /* Build configuration list for PBXNativeTarget "OpenArtMap" */;
+			buildPhases = (
+				497CB23723D8A84000EB21DC /* Sources */,
+				497CB23823D8A84000EB21DC /* Frameworks */,
+				497CB23923D8A84000EB21DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenArtMap;
+			productName = OpenArtMap;
+			productReference = 497CB23B23D8A84000EB21DC /* OpenArtMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		497CB25023D8A84100EB21DC /* OpenArtMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 497CB26823D8A84200EB21DC /* Build configuration list for PBXNativeTarget "OpenArtMapTests" */;
+			buildPhases = (
+				497CB24D23D8A84100EB21DC /* Sources */,
+				497CB24E23D8A84100EB21DC /* Frameworks */,
+				497CB24F23D8A84100EB21DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				497CB25323D8A84100EB21DC /* PBXTargetDependency */,
+			);
+			name = OpenArtMapTests;
+			productName = OpenArtMapTests;
+			productReference = 497CB25123D8A84100EB21DC /* OpenArtMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		497CB25B23D8A84200EB21DC /* OpenArtMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 497CB26B23D8A84200EB21DC /* Build configuration list for PBXNativeTarget "OpenArtMapUITests" */;
+			buildPhases = (
+				497CB25823D8A84200EB21DC /* Sources */,
+				497CB25923D8A84200EB21DC /* Frameworks */,
+				497CB25A23D8A84200EB21DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				497CB25E23D8A84200EB21DC /* PBXTargetDependency */,
+			);
+			name = OpenArtMapUITests;
+			productName = OpenArtMapUITests;
+			productReference = 497CB25C23D8A84200EB21DC /* OpenArtMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		497CB23323D8A84000EB21DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Miller Prodactions";
+				TargetAttributes = {
+					497CB23A23D8A84000EB21DC = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					497CB25023D8A84100EB21DC = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 497CB23A23D8A84000EB21DC;
+					};
+					497CB25B23D8A84200EB21DC = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 497CB23A23D8A84000EB21DC;
+					};
+				};
+			};
+			buildConfigurationList = 497CB23623D8A84000EB21DC /* Build configuration list for PBXProject "OpenArtMap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 497CB23223D8A84000EB21DC;
+			productRefGroup = 497CB23C23D8A84000EB21DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				497CB23A23D8A84000EB21DC /* OpenArtMap */,
+				497CB25023D8A84100EB21DC /* OpenArtMapTests */,
+				497CB25B23D8A84200EB21DC /* OpenArtMapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		497CB23923D8A84000EB21DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497CB24B23D8A84100EB21DC /* LaunchScreen.storyboard in Resources */,
+				497CB24823D8A84100EB21DC /* Preview Assets.xcassets in Resources */,
+				497CB24523D8A84100EB21DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497CB24F23D8A84100EB21DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497CB25A23D8A84200EB21DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		497CB23723D8A84000EB21DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497CB23F23D8A84000EB21DC /* AppDelegate.swift in Sources */,
+				497CB24123D8A84000EB21DC /* SceneDelegate.swift in Sources */,
+				497CB24323D8A84000EB21DC /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497CB24D23D8A84100EB21DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497CB25623D8A84200EB21DC /* OpenArtMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497CB25823D8A84200EB21DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497CB26123D8A84200EB21DC /* OpenArtMapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		497CB25323D8A84100EB21DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 497CB23A23D8A84000EB21DC /* OpenArtMap */;
+			targetProxy = 497CB25223D8A84100EB21DC /* PBXContainerItemProxy */;
+		};
+		497CB25E23D8A84200EB21DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 497CB23A23D8A84000EB21DC /* OpenArtMap */;
+			targetProxy = 497CB25D23D8A84200EB21DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		497CB24923D8A84100EB21DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				497CB24A23D8A84100EB21DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		497CB26323D8A84200EB21DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		497CB26423D8A84200EB21DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		497CB26623D8A84200EB21DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenArtMap/Preview Content\"";
+				DEVELOPMENT_TEAM = GZ34HLA47P;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = OpenArtMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-Inc..OpenArtMap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		497CB26723D8A84200EB21DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenArtMap/Preview Content\"";
+				DEVELOPMENT_TEAM = GZ34HLA47P;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = OpenArtMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-Inc..OpenArtMap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		497CB26923D8A84200EB21DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GZ34HLA47P;
+				INFOPLIST_FILE = OpenArtMapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-Inc..OpenArtMapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenArtMap.app/OpenArtMap";
+			};
+			name = Debug;
+		};
+		497CB26A23D8A84200EB21DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GZ34HLA47P;
+				INFOPLIST_FILE = OpenArtMapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-Inc..OpenArtMapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenArtMap.app/OpenArtMap";
+			};
+			name = Release;
+		};
+		497CB26C23D8A84200EB21DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GZ34HLA47P;
+				INFOPLIST_FILE = OpenArtMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-Inc..OpenArtMapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenArtMap;
+			};
+			name = Debug;
+		};
+		497CB26D23D8A84200EB21DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GZ34HLA47P;
+				INFOPLIST_FILE = OpenArtMapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Apple-Inc..OpenArtMapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenArtMap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		497CB23623D8A84000EB21DC /* Build configuration list for PBXProject "OpenArtMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497CB26323D8A84200EB21DC /* Debug */,
+				497CB26423D8A84200EB21DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		497CB26523D8A84200EB21DC /* Build configuration list for PBXNativeTarget "OpenArtMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497CB26623D8A84200EB21DC /* Debug */,
+				497CB26723D8A84200EB21DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		497CB26823D8A84200EB21DC /* Build configuration list for PBXNativeTarget "OpenArtMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497CB26923D8A84200EB21DC /* Debug */,
+				497CB26A23D8A84200EB21DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		497CB26B23D8A84200EB21DC /* Build configuration list for PBXNativeTarget "OpenArtMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497CB26C23D8A84200EB21DC /* Debug */,
+				497CB26D23D8A84200EB21DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 497CB23323D8A84000EB21DC /* Project object */;
+}
