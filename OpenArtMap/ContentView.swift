@@ -17,18 +17,20 @@ struct ContentView: View {
 
     @State var toggleColor: Bool = true
     @State var size: CGFloat = 10
-
+    
+    var color: Color{ Color(red: Double(CGFloat.random(in: 0...1)), green: Double(CGFloat.random(in: 0...1)), blue: Double(CGFloat.random(in: 0...1)))}
+    
     var body: some View {
         VStack {
+            Ball(
+                color: toggleColor ? .yellow : color,
+                diameter: $size
+            ).frame(width: 300, height: 300, alignment: .center)
             Toggle(isOn: $toggleColor.animation()) {
                 Text("Toggle red ball.")
             }.padding()
-            Slider(value: $size, in: 10...100)
+            Slider(value: $size, in: 10...300)
                 .padding()
-            Ball(
-                color: toggleColor ? .yellow : .blue,
-                diameter: $size
-            ).frame(width: 200, height: 200, alignment: .center)
 
         }
     }
