@@ -5,13 +5,27 @@ class ArtAnnotationView: MKAnnotationView {
         super.init(annotation: artAnnotation, reuseIdentifier: nil)
         
         self.image = artAnnotation.artwork.bestimage
-        var width = artAnnotation.artwork.bestimage.size.width/10
-        var height = artAnnotation.artwork.bestimage.size.height/10
-        while width > 44{
+        var width = artAnnotation.artwork.bestimage.size.width
+        var height = artAnnotation.artwork.bestimage.size.height
+        var w = false
+        var g: CGFloat = 0
+        if width > height{
+            g = width/height
+            w = true
+        }else if height > width{
+            g = height/width
+            w = false
+        }
+        while width > 55{
             width = width/1.1
         }
-        while height > 44{
+        while height > 55{
             height = height/1.1
+        }
+        if w == true{
+            height = height/g
+        }else{
+            width = width/g
         }
         self.frame = CGRect(origin: .zero, size: CGSize(width: width, height: height))
     }
@@ -21,9 +35,5 @@ class ArtAnnotationView: MKAnnotationView {
     }
 }
 
-extension UIImage {
-    func sizeToFit(_ edgeLenght: CGFloat) -> CGSize {
-        let longestEdge = max(size.width, size.height)
-        
-    }
-}
+
+
