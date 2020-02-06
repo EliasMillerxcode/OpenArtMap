@@ -15,6 +15,10 @@
 		497CB24B23D8A84100EB21DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497CB24923D8A84100EB21DC /* LaunchScreen.storyboard */; };
 		497CB25623D8A84200EB21DC /* OpenArtMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497CB25523D8A84200EB21DC /* OpenArtMapTests.swift */; };
 		497CB26123D8A84200EB21DC /* OpenArtMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497CB26023D8A84200EB21DC /* OpenArtMapUITests.swift */; };
+		49CFF59023EC6E01006C1726 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CFF58F23EC6E01006C1726 /* MapView.swift */; };
+		49CFF59323EC71AD006C1726 /* ArtAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CFF59223EC71AD006C1726 /* ArtAnnotation.swift */; };
+		49CFF59523EC71DE006C1726 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CFF59423EC71DE006C1726 /* Artwork.swift */; };
+		49CFF59723EC751E006C1726 /* ArtAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CFF59623EC751E006C1726 /* ArtAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		497CB25C23D8A84200EB21DC /* OpenArtMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenArtMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		497CB26023D8A84200EB21DC /* OpenArtMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenArtMapUITests.swift; sourceTree = "<group>"; };
 		497CB26223D8A84200EB21DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49CFF58F23EC6E01006C1726 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		49CFF59223EC71AD006C1726 /* ArtAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtAnnotation.swift; sourceTree = "<group>"; };
+		49CFF59423EC71DE006C1726 /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		49CFF59623EC751E006C1726 /* ArtAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtAnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,8 @@
 				497CB23E23D8A84000EB21DC /* AppDelegate.swift */,
 				497CB24023D8A84000EB21DC /* SceneDelegate.swift */,
 				497CB24223D8A84000EB21DC /* ContentView.swift */,
+				49CFF59423EC71DE006C1726 /* Artwork.swift */,
+				49CFF59123EC7198006C1726 /* Map */,
 				497CB24423D8A84100EB21DC /* Assets.xcassets */,
 				497CB24923D8A84100EB21DC /* LaunchScreen.storyboard */,
 				497CB24C23D8A84100EB21DC /* Info.plist */,
@@ -134,6 +144,16 @@
 				497CB26223D8A84200EB21DC /* Info.plist */,
 			);
 			path = OpenArtMapUITests;
+			sourceTree = "<group>";
+		};
+		49CFF59123EC7198006C1726 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				49CFF58F23EC6E01006C1726 /* MapView.swift */,
+				49CFF59223EC71AD006C1726 /* ArtAnnotation.swift */,
+				49CFF59623EC751E006C1726 /* ArtAnnotationView.swift */,
+			);
+			path = Map;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +288,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				497CB23F23D8A84000EB21DC /* AppDelegate.swift in Sources */,
+				49CFF59023EC6E01006C1726 /* MapView.swift in Sources */,
+				49CFF59323EC71AD006C1726 /* ArtAnnotation.swift in Sources */,
 				497CB24123D8A84000EB21DC /* SceneDelegate.swift in Sources */,
+				49CFF59523EC71DE006C1726 /* Artwork.swift in Sources */,
+				49CFF59723EC751E006C1726 /* ArtAnnotationView.swift in Sources */,
 				497CB24323D8A84000EB21DC /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
