@@ -4,7 +4,7 @@ class ArtAnnotationView: MKAnnotationView {
     init(artAnnotation: ArtAnnotation) {
         super.init(annotation: artAnnotation, reuseIdentifier: nil)
 
-        let image = artAnnotation.artwork.bestimage
+        let image = artAnnotation.artwork.bestImage
         self.image = image
         self.frame = CGRect(origin: .zero, size: image.sizeToFit(maxWidth: 64, maxHeight: 64))
     }

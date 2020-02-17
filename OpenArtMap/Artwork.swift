@@ -1,6 +1,6 @@
 import MapKit
 
-struct Artwork {
+struct Artwork: Identifiable {
     
     enum Kind {
         case painting
@@ -21,22 +21,23 @@ struct Artwork {
             }
         }
     }
-    
+
+    let id: UUID = UUID()
     let name: String
     let description: String
     let coordinate: CLLocationCoordinate2D
     let kind: Kind
     let like: Bool
     let images: [UIImage]
-    let bestimage: UIImage
+    let bestImage: UIImage
     
-    init(name: String, description: String = "", coordinate: CLLocationCoordinate2D, kind: Kind, like: Bool = false, bestimage: UIImage = UIImage() , images: [UIImage] = []) {
+    init(name: String, description: String = "", coordinate: CLLocationCoordinate2D, kind: Kind, like: Bool = false, bestImage: UIImage = UIImage() , images: [UIImage] = []) {
         self.name = name
         self.description = description
         self.coordinate = coordinate
         self.kind = kind
         self.like = like
         self.images = images
-        self.bestimage = bestimage
+        self.bestImage = bestImage
     }
 }

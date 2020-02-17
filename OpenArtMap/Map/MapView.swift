@@ -38,11 +38,11 @@ struct MapView: UIViewRepresentable {
         let mapview = MKMapView()
         mapview.delegate = context.coordinator
         
-        let annotation = ArtAnnotation(artwork: Artwork(name: "Bismark Denkmal", description: "Dies ist berühtes Denkmahl das Bismark darstellt", coordinate: CLLocationCoordinate2D(latitude: 51.951718, longitude: 9.740112), kind: .sculpture, bestimage: UIImage(named: "Bismark")!))
+        let annotation = ArtAnnotation(artwork: Artwork(name: "Bismark Denkmal", description: "Dies ist berühtes Denkmahl das Bismark darstellt", coordinate: CLLocationCoordinate2D(latitude: 51.951718, longitude: 9.740112), kind: .sculpture, bestImage: UIImage(named: "Bismark")!))
         mapview.addAnnotation(annotation)
-        let annotation2 = ArtAnnotation(artwork: Artwork(name: "Benksy", description: "Dies ist Graffiti", coordinate: CLLocationCoordinate2D(latitude: 59.11, longitude: 10.264), kind: .sculpture, bestimage: UIImage(named: "Benksy1")!))
+        let annotation2 = ArtAnnotation(artwork: Artwork(name: "Benksy", description: "Dies ist Graffiti", coordinate: CLLocationCoordinate2D(latitude: 59.11, longitude: 10.264), kind: .sculpture, bestImage: UIImage(named: "Benksy1")!))
         mapview.addAnnotation(annotation2)
-        let annotation3 = ArtAnnotation(artwork: Artwork(name: "Elbphilharmonie", description: "Dies ist Graffiti", coordinate: CLLocationCoordinate2D(latitude: 59.11, longitude: 50.234), kind: .sculpture, bestimage: UIImage(named: "Elbphilharmonie")!))
+        let annotation3 = ArtAnnotation(artwork: Artwork(name: "Elbphilharmonie", description: "Dies ist Graffiti", coordinate: CLLocationCoordinate2D(latitude: 59.11, longitude: 50.234), kind: .sculpture, bestImage: UIImage(named: "Elbphilharmonie")!))
         mapview.addAnnotation(annotation3)
         return mapview
     }
