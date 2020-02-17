@@ -1,4 +1,5 @@
 import MapKit
+
 struct Artwork {
     
     enum Kind {
