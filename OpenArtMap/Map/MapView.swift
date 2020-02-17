@@ -40,6 +40,8 @@ struct MapView: UIViewRepresentable {
         
         let annotation = ArtAnnotation(artwork: Artwork(name: "Bismark Denkmal", description: "Dies ist berühtes Denkmahl das Bismark darstellt", coordinate: CLLocationCoordinate2D(latitude: 51.951718, longitude: 9.740112), kind: .sculpture, bestimage: UIImage(named: "Bismark")!))
         mapview.addAnnotation(annotation)
+        let annotation2 = ArtAnnotation(artwork: Artwork(name: "Benksy", description: "Dies ist Graffiti", coordinate: CLLocationCoordinate2D(latitude: 59.11, longitude: 10.264), kind: .sculpture, bestimage: UIImage(named: "Benksy1")!))
+        mapview.addAnnotation(annotation2)
         return mapview
     }
     func updateUIView(_ uiView: MKMapView, context: UIViewRepresentableContext<MapView>) {

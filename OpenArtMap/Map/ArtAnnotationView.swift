@@ -7,7 +7,7 @@ class ArtAnnotationView: MKAnnotationView {
         self.image = artAnnotation.artwork.bestimage
         var width = artAnnotation.artwork.bestimage.size.width
         var height = artAnnotation.artwork.bestimage.size.height
-        var w = false
+        var w: Bool?
         var g: CGFloat = 0
         if width > height{
             g = width/height
@@ -16,17 +16,13 @@ class ArtAnnotationView: MKAnnotationView {
             g = height/width
             w = false
         }
-        while width > 55{
-            width = width/1.1
-        }
-        while height > 55{
-            height = height/1.1
-        }
+        width = 55
+        height = 55
         if w == true{
             height = height/g
-        }else{
+        }else if w == false{
             width = width/g
-        }
+        }else{}
         self.frame = CGRect(origin: .zero, size: CGSize(width: width, height: height))
     }
     
