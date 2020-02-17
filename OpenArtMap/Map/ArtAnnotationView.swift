@@ -7,7 +7,7 @@ class ArtAnnotationView: MKAnnotationView {
         self.image = artAnnotation.artwork.bestimage
         var width = artAnnotation.artwork.bestimage.size.width
         var height = artAnnotation.artwork.bestimage.size.height
-        var w: Bool?
+        var w: Bool? //true=Breite größer, false=Höhe größer, nil=Beide gleich groß
         var g: CGFloat = 0
         if width > height{
             g = width/height
